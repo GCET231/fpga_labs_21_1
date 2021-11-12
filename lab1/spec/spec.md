@@ -8,6 +8,7 @@ Centro de Ciências Exatas e Tecnológicas
 <p align="center">
 Universidade Federal do Recôncavo da Bahia, Cruz das Almas
 </p>
+
 ## Configurando suas Contas
 
 ### Onde obter informações
