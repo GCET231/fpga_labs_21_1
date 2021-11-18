@@ -8,6 +8,7 @@ Centro de Ciências Exatas e Tecnológicas
 <p align="center">
 Universidade Federal do Recôncavo da Bahia, Cruz das Almas
 </p>
+
 ## Configurando suas Contas
 
 ### Onde obter informações
@@ -252,7 +253,7 @@ Finalmente, vamos analisar o diagrama esquemático do circuito que você acabou 
 
 ## Entregáveis do Laboratório
 
-### Acompanhamento (entrega: 15h, Sexta-feira 10 de Setembro, 2021)
+### Acompanhamento (entrega: sexta-feira 19 de novembro, 2021)
 
 Nós utilizaremos apenas submissões eletrônicas. Em um documento associado à sua entrega no Google Sala de Aula, submeta o que se pede:
 

@@ -1,1 +1,1 @@
-# fpga_labs_21_1
+# Laboratórios FPGA de GCET231 2021.1
