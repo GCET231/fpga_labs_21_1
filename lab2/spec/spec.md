@@ -243,7 +243,7 @@ Leia as referências online disponíveis para obter mais detalhes sobre esses co
 
 ## Entregáveis do Laboratório
 
-### Acompanhamento (entrega: 15h, Sexta-feira 10 de Setembro, 2021)
+### Acompanhamento (Sexta-feira 26 de novembro, 2021)
 
 Em um documento associado à sua entrega no Google Sala de Aula, submeta o que se pede:
 
