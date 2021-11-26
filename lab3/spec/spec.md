@@ -211,11 +211,11 @@ Em seguida são apresentados dois diagramas de blocos para a nossa ULA: aquele q
 
 **Sem Comparação**
 
-![ALU Sem Comparação](/Users/joaocarlos/Code/GCET231/fpga_labs_21_1/lab3/spec/img/alu.png)
+![ALU Sem Comparação](img/alu.png)
 
 **Com Comparação:**
 
-![alu_comp](/Users/joaocarlos/Code/GCET231/fpga_labs_21_1/lab3/spec/img/alu_comp.png)
+![alu_comp](img/alu_comp.png)
 
 Esta última inclui algumas funcionalidades adicionais. Especificamente, as operações comparação entre operandos `A` e `B`. Ambas as comparações,`signed` e `unsigned` são implementadas: 
 
@@ -270,7 +270,7 @@ Lembre-se de selecionar a representação "decimal" para exibir as entradas `A` 
 
 Primeiro, você deve testar sua ULA com a largura definida como 8 bits (use o arquivo `lab3_part4_test_8bit.sv`). 
 
-Em seguida, teste seu projeto utilizando a versão 32-bits do testador (`lab3_part4\_test\_32bit.sv`). 
+Em seguida, teste seu projeto utilizando a versão 32-bits do testador (`lab3_part4_test_32bit.sv`). 
 
 Alguns resultados podem mudar, como por exemplo, a operação $100+30$, que causava um *overflow,* quando em 8-bits, não causará o  mesmo efeito com 32-bits.
 
@@ -289,7 +289,7 @@ Você irá aprender muito sobre como relacionar o esquemático do circuito com a
 Em um documento associado à sua entrega no Google Sala de Aula, submeta o que se pede:
 
 - Uma captura de tela das formas de onda da simulação, mostrando claramente **os resultados da simulação final apenas da Parte 4 (tanto para a versão 8-bits, quanto para a versão 32-bits)**.
-- Seu código Verilog para os módulos da Parte 4: módulos `ula`, `comparator`, `logical` e `shifter`.
+- Seu código Verilog para os módulos da Parte 4: módulos `ula`, `comparator`, `logical` e `shifter`. Você pode utilizar o [SlidesCodeHighlighter](https://romannurik.github.io/SlidesCodeHighlighter/) para formatar seu código no documento a ser entregue.
 - Uma figura do esquemático do seu circuito para o projeto final da Parte 4 (32-bits).
 
 Apresente uma descrição dos procedimentos realizados neste laboratório, de acordo com o modelo.
