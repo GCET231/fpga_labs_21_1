@@ -19,7 +19,7 @@ Nesta atividade prática, você aprenderá:
 - Como especificar circuitos sequenciais em SystemVerilog;
 - Estratégias diferentes para desenvolvimento de contadores; 
 - Incluir funcionalidades de reset síncrono;
-- Como incluir funcionalidades de \textit{start/stop} no seus contadores;
+- Como incluir funcionalidades de _start/stop_ no seus contadores;
 - Como trabalhar com *testbench* para simulação de clocks em SystemVerilog;
 - Alguns construtores novos em SystemVerilog;
 
@@ -53,7 +53,7 @@ module countermod4 (
 	output logic [1:0] value = 2'b00
 );
 
-   always @(posedge clock) begin : proc_value
+   always_ff @(posedge clock) begin : proc_value
       value <= reset ? 2'b00 : (value + 1'b1);
 	end
 
@@ -105,7 +105,7 @@ module countermod7 (
 	output logic [2:0] value // Observe como esta linha difere da Part I
 );
 
-	always @(posedge clock) begin
+	always_ff @(posedge clock) begin
 		value <= reset ? 3'b000 : /* Complete o codigo aqui */;
 	end
 
@@ -147,9 +147,9 @@ Projete um contador de duas dimensões (chamado também de **contador-xy**). Est
 
 A especificação funcional do seu módulo deve seguir as seguintes regras:
 
-- O contador começa em $(x,y) = (0,0)$ e incrementa $x$ de $(0,0)$ até $(WIDTH-1,0)$;
-- Em seguida, ele retorna para o início da próxima linha $(0,1)$;
-- Da mesma forma, o contador retorna do o final da da última linha $(WIDTH-1, HEIGHT-1)$ para o topo, $(0,0)$;
+- O contador começa em (x,y) = (0,0) e incrementa $x$ de (0,0) até (WIDTH-1,0);
+- Em seguida, ele retorna para o início da próxima linha (0,1);
+- Da mesma forma, o contador retorna do o final da da última linha (WIDTH-1, HEIGHT-1) para o topo, (0,0);
 - O contador também possui uma entrada chamada `enable`. Essa entrada informa para o contador quando continuar a contar ou permanecer inativo. Portanto, se `enable` é 0, o contador não incrementa na próxima borda positiva do *clock*.
 
 Um esboço do código para o módulo `xycounter` é fornecido à seguir. 
