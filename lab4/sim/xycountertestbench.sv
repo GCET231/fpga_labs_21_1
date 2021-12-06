@@ -27,9 +27,9 @@ module XYCounterTestBench;
       .clock(clock), .enable(enable), .x(x), .y(y)
    );
 
-    initial begin
+  initial begin
     #50 $finish;
-    end
+  end
     
   initial begin
     clock = 0;
