@@ -12,7 +12,7 @@ Universidade Federal do Recôncavo da Bahia, Cruz das Almas
 
 ## Introdução
 
-Este laboratório é mais uma das atividades de desenvolvimento envolvendo o simulador DESim. O roteiro consiste de três etapas, cada qual construída com base na anterior. Os arquivos referentes a cada etapa estão organizados, de acordo com a numeração apresentada à seguir.
+Este laboratório é mais uma das atividades de desenvolvimento envolvendo o simulador DESim. O roteiro consiste de três etapas, cada qual construída com base na anterior.
 
 Ao longo desta prática você irá aprender a:
 
