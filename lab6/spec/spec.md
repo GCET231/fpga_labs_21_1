@@ -64,7 +64,7 @@ Sua tarefa agora é criar uma nova demonstração integrando os dispositivos de 
 
 Integre o teclado aos primeiros 8 LEDs do simulador. Codifique um conjunto de 8 caracteres ASCII, de modo que cada tecla pressionada resulte no acendimento de um único LED. Essencialmente, você deve mapear o _scancode_ de um conjunto arbitrário de teclas para uma sequência binária de codificação _one-hot_, a qual deve ser exibida nos LEDs da placa.
 
-## Acompanhamento (entrega: sexta-feira 4 de fevereiro, 2022)
+## Acompanhamento (entrega: sexta-feira 11 de fevereiro, 2022)
 
 Em um documento associado à sua entrega no Google Sala de Aula, submeta o que se pede:
 
