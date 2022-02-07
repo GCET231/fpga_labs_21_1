@@ -56,14 +56,14 @@ module tb();
     end
 
     // Parte 0
-    counter4digit DUT (
-        .CLOCK_50(CLOCK_50), 
-        .KEY(KEY), 
-        .HEX0(HEX0), 
-        .HEX1(HEX1), 
-        .HEX2(HEX2), 
-        .HEX3(HEX3)
-    );
+    // counter4digit DUT (
+    //     .CLOCK_50(CLOCK_50), 
+    //     .KEY(KEY), 
+    //     .HEX0(HEX0), 
+    //     .HEX1(HEX1), 
+    //     .HEX2(HEX2), 
+    //     .HEX3(HEX3)
+    // );
 
     // Instancie aqui o módulo counter6digit da Parte 1
     // Não esqueça de comentar a instância de counter4digit acima
@@ -72,7 +72,7 @@ module tb();
     
     // Parte 2 - Remova o comentário abaixo para realizar a Parte 3
     // Não esqueça de comentar as intâncias de counter4digit e counter6digit
-    /*
+    
     keyboard_tester DUT (
         .CLOCK_50(CLOCK_50),
         .KEY(KEY),
@@ -97,5 +97,5 @@ module tb();
         .ps2_dat(ps2_dat),
         .lock_controls(ps2_lock_control)
     );    
-    */
+    
 endmodule

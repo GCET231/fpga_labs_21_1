@@ -15,9 +15,9 @@
 module counter4digit
    (
       ////////////////////	Clock Input	 	/////////////////////////////////////// 
-      input    logic        CLOCK_50,     //	50 MHz
+      input    wire        CLOCK_50,     //	50 MHz
       ////////////////////	 Push Button   ///////////////////////////////////////
-      input	   logic [3:0]  KEY,          //	Pushbutton[3:0]
+      input	   wire [3:0]  KEY,          //	Pushbutton[3:0]
       ////////////////////	7-SEG Display  ///////////////////////////////////////
       output   logic [6:0]  HEX0,         // Display de 7-segmentos (HEX0)
       output   logic [6:0]  HEX1,         // Display de 7-segmentos (HEX1)
