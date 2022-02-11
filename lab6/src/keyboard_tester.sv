@@ -15,12 +15,12 @@
 module keyboard_tester
    (
    //////////////////////	Clock Input	 	/////////////////////////////////////// 
-   input 	logic 		CLOCK_50, 			//	50 MHz
+   input 	wire 		CLOCK_50, 			//	50 MHz
    //////////////////////	 Push Button   ///////////////////////////////////////
-   input	 	logic [3:0]	KEY, 					//	Pushbutton[3:0]
+   input	 	wire [3:0]	KEY, 					//	Pushbutton[3:0]
    //////////////////////	 PS/2 Serial   ///////////////////////////////////////
-   input	 	logic 	 	PS2_CLK, 			//	PS/2 Clock
-   input	 	logic 	 	PS2_DAT, 			//	PS/2 Data
+   input	 	wire 	 	PS2_CLK, 			//	PS/2 Clock
+   input	 	wire 	 	PS2_DAT, 			//	PS/2 Data
    //////////////////////	7-SEG Display  ///////////////////////////////////////
    output 	logic [6:0]	HEX0, 				// Display de 7-segmentos (HEX0)
    output 	logic [6:0] HEX1, 				// Display de 7-segmentos (HEX1)
