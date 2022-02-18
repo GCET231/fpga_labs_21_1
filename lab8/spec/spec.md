@@ -79,7 +79,7 @@ Nesse laboratório você irá começar a desenvolver o processador MIPS que nós
 
 **NOTE:** _nós não implementaremos o caminho de dados da Figura acima nesta parte. Veja a Figura da próxima seção._
 
-Primeiramente, você irá projetar um _register file_ de 3-portas. Isso que dizer que ele permite que três endereços diferentes sejam especificados a qualquer momento na entrada: _Read Address 1_, _Read Address 2 e \_Write Addr_. Eles são necessários para acessar (até) dois operandos fonte e um operando de destino, necessários para instruções MIPS.
+Primeiramente, você irá projetar um _register file_ de 3-portas. Isso que dizer que ele permite que três endereços diferentes sejam especificados a qualquer momento na entrada: _Read Address 1_, _Read Address 2_ e _Write Addr_. Eles são necessários para acessar (até) dois operandos fonte e um operando de destino, necessários para instruções MIPS.
 
 A partir da descrição acima, faça o que é solicitado:
 
@@ -99,8 +99,6 @@ Projete um módulo _top-level_ que contenha o _register file_ e sua ALU (do Lab 
 ![Caminho de Dados Final do Banco de Registradores](alu-reg2.png)
 
 Agora note o seguinte:
-
-\begin{itemize}
 
 - Para auxiliar nos testes do seu projeto, envie `ReadData1`, `ReadData2` e `ALUResult` para a saída do módulo _top-level_, de modo que eles possam ser visualizados durante a simulação. A _flag_ Zero (`Z`) também deve ser fornecida como uma saída do módulo _top-level_ (uma vez que as instruções de _branch_ necessitarão dela).
 - Por enquanto, você não alimentará o resultado da ALU de volta para o _register file_. No lugar disso, o dado a ser escrito no _register file_ deve vir direto do _testbench_ como uma entrada para o módulo _top-level_.}
